@@ -1,0 +1,91 @@
+module.exports = {
+    classes: {
+        CONTROL_BASE: 'mapboxgl-ctrl',
+        CONTROL_PREFIX: 'mapboxgl-ctrl-',
+        CONTROL_BUTTON: 'mapbox-gl-draw_ctrl-draw-btn',
+        CONTROL_BUTTON_LINE: 'mapbox-gl-draw_line',
+        CONTROL_BUTTON_POLYGON: 'mapbox-gl-draw_polygon',
+        CONTROL_BUTTON_RECT: 'mapbox-gl-draw_rect',
+        CONTROL_BUTTON_ROUND: 'mapbox-gl-draw_round',
+        CONTROL_BUTTON_SECTOR: 'mapbox-gl-draw_sector',
+        CONTROL_BUTTON_COORDINATE: 'mapbox-gl-draw_coordinate',
+        CONTROL_BUTTON_DISTANCE: 'mapbox-gl-draw_distance',
+        CONTROL_BUTTON_POINT: 'mapbox-gl-draw_point',
+        CONTROL_BUTTON_TRASH: 'mapbox-gl-draw_trash',
+        CONTROL_BUTTON_COMBINE_FEATURES: 'mapbox-gl-draw_combine',
+        CONTROL_BUTTON_UNCOMBINE_FEATURES: 'mapbox-gl-draw_uncombine',
+        CONTROL_BUTTON_TEXT: 'mapbox-gl-draw_text',
+        CONTROL_BUTTON_SAVE: 'mapbox-gl-draw_save',
+        CONTROL_BUTTON_LOAD: 'mapbox-gl-draw_load',
+        CONTROL_BUTTON_EDIT: 'mapbox-gl-draw_edit',
+        CONTROL_GROUP: 'mapboxgl-ctrl-group',
+        ATTRIBUTION: 'mapboxgl-ctrl-attrib',
+        ACTIVE_BUTTON: 'active',
+        BOX_SELECT: 'mapbox-gl-draw_boxselect'
+    },
+    controls: {
+        POINT: 'point',
+        LINE: 'line',
+        RECT: 'rect',
+        POLYGON: 'polygon',
+        ROUND: 'round',
+        SECTOR: 'sector',
+        // COORDINATE: 'coordinate',
+        DISTANCE: 'distance',
+        SAVE: 'save',
+        LOAD: 'load',
+        EDIT: 'edit',
+        TEXT: 'text',
+    },
+    modes: {
+        COORDINATE: 'coordinate',
+        MEASURE_DISTANCE: 'distance',
+        DRAW_LINE: 'line',
+        DRAW_RECT: 'rect',
+        DRAW_POLYGON: 'polygon',
+        DRAW_POINT: 'point',
+        DRAW_ROUND: 'round',
+        DRAW_SECTOR: 'sector',
+        DRAW_TEXT: 'text',
+        SIMPLE_SELECT: 'simple_select',
+        DIRECT_SELECT: 'direct_select',
+        STATIC: 'static'
+    },
+    cursors: {
+        ADD: 'add',
+        MOVE: 'move',
+        DRAG: 'drag',
+        POINTER: 'pointer',
+        ARROW: 'arrow',
+        NONE: 'none'
+    },
+    geojsonTypes: {
+        FEATURE: 'Feature',
+        POLYGON: 'Polygon',
+        LINE_STRING: 'LineString',
+        POINT: 'Point',
+        FEATURE_COLLECTION: 'FeatureCollection',
+        MULTI_PREFIX: 'Multi',
+        MULTI_POINT: 'MultiPoint',
+        MULTI_LINE_STRING: 'MultiLineString',
+        MULTI_POLYGON: 'MultiPolygon'
+    },
+    meta: {
+        FEATURE: 'feature',
+        MIDPOINT: 'midpoint',
+        VERTEX: 'vertex'
+    },
+    events: {
+        CREATE: 'draw.create',
+        DELETE: 'draw.delete',
+        UPDATE: 'draw.update',
+        SELECTION_CHANGE: 'draw.selectionchange',
+        MODE_CHANGE: 'draw.modechange',
+        ACTIONABLE: 'draw.actionable',
+        RENDER: 'draw.render',
+        COMBINE_FEATURES: 'draw.combine',
+        UNCOMBINE_FEATURES: 'draw.uncombine'
+    },
+
+
+}

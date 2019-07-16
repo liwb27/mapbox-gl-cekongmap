@@ -1,0 +1,38 @@
+colorpicker_canvas {
+    cursor: crosshair;
+}
+
+#cur {
+    width: 3px;
+    height: 3px;
+    outline: 2px solid #535353;
+    margin-left: -1px;
+    margin-top: -1px;
+    position: absolute;
+}
+
+.colorpicker_canvas {
+    cursor: crosshair;
+}
+
+.colorpicker_wrapper {
+    position: relative;
+}
+
+#color_show {
+    width: 128px;
+    height: 128px;
+    background: #f00;
+}
+
+/* .colorpicker_panel {
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #fff;
+    padding:  10px;
+    text-align: center;
+    line-height: 2em;
+} */

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="./bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="./mapbox-gl.css" />
+
+  <meta charset="utf-8" />
+  <title>
+    <%= htmlWebpackPlugin.options.title %>
+  </title>
+</head>
+
+<body>
+  <div id="map" style="height:730px;"></div>
+</body>
+
+</html>
+<script src="./mapbox-gl.js"></script>
+<script src="./jquery.js"></script>
+<script src="./bootstrap.min.js"></script>
+<script>
+  var stylelist = [
+    {
+      title: '卫星',
+      uri: "http://1.1.11.227:8080/styles/satellite/style.json"
+    },
+    {
+      title: '矢量',
+      uri: "http://1.1.11.227:8080/styles/jsb3s-liberty/style.json"
+    },
+  ];
+
+  map = CekongMap.Create('map', 'http://1.1.11.227:8080/styles/jsb3s-liberty/style.json', stylelist);
+</script>
