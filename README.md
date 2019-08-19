@@ -30,6 +30,6 @@
 运行npm install安装依赖包，之后运行npm run build打包js文件
 
 ## 截图
-![avatar](./screenshot-1.png)
-![avatar](./screenshot-2.png)
+![avatar](./screenshot-1.PNG)
+![avatar](./screenshot-2.PNG)
 
