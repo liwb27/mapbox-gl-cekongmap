@@ -92,6 +92,9 @@ DrawRect.click = function (state) {
     if (state.originalEvent.button == 2) {//右键单击
         if(this.stage == 'stage1') {
             this.rect.destroy();
+            this.rect = null;
+            this.bearing1 = undefined;
+            this.bearing2 = undefined;
             this.stop();
         }
         else if (this.stage == 'stage2') {
